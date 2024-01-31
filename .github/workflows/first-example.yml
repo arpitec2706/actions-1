@@ -13,7 +13,7 @@ jobs:
           run: ls
 
         - name: Read file
-          run: car README.md
+          run: cat README.md
 
          
 
