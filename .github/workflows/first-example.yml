@@ -12,7 +12,7 @@ jobs:
         - name: welcome message
           run: |
             echo "My firstgithub action"
-            ls-ltra
+            ls -ltra
 
 
 
