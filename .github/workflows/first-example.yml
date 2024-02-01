@@ -8,12 +8,11 @@ jobs:
         steps:
         - name: Checkout Repo
           uses: actions/checkout@v4
-          
-        - name: welcome message
-          run: echo "My firstgithub action"
 
-        - name: list files
-          run: ls
+        - name: welcome message
+          run: |
+            echo "My firstgithub action"
+            ls-ltra
 
 
 
